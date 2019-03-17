@@ -1,1 +1,1 @@
-web: python ./ZeroNet/zeronet.py --ui_ip "*" --ui_port $PORT --ui_password $mypassword
+web: wget https://github.com/HelloZeroNet/ZeroNet/archive/master.tar.gz && tar xvpfz master.tar.gz && cd ZeroNet-master && python ./ZeroNet/zeronet.py --ui_ip "*" --ui_port $PORT --ui_password $mypassword
